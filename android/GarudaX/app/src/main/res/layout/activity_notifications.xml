@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/tvNotification1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔔 Your complaint RD001 has been submitted successfully."
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvNotification2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔔 Your complaint RD001 is under review."
+            android:textSize="17sp"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvNotification3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔔 Municipal authority has been assigned to your complaint."
+            android:textSize="17sp"
+            android:padding="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,9 @@
+path: C:/Users/admin/road_damage_detection/data
+
+train: train/images
+val: val/images
+
+names:
+  0: pothole
+  1: crack
+  2: manhole

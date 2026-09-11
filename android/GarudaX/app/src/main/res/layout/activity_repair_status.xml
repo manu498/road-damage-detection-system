@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repair Status"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/tvComplaintId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID: RD001"
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: Main Road"
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvCurrentStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Status: Under Review"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select New Status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnUpdateStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE STATUS"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

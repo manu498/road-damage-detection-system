@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track Complaint"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/tvComplaintId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID: RD001"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Status: Under Review"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/tvSubmitted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ Complaint Submitted"
+            android:textSize="17sp"
+            android:padding="12dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ Under Review"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvAssigned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ Assigned to Municipal Authority"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvRepair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○ Repair In Progress"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tvCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○ Repair Completed"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

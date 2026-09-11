@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:background="#64D9B0"
+            android:text="Complaint Details"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/imgComplaint"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvComplaintId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint ID: Loading..."
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: Loading..."
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvDamageType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Damage Type: Detecting..."
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description: Loading..."
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: Loading..."
+            android:textSize="18sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Loading..."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>
